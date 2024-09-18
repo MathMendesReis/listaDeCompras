@@ -1,0 +1,7 @@
+nav{
+  height: 57px;
+  padding-inline:4px ;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}

@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #F4F5FB;
+}
+
+form{
+  padding-inline:4px ;
+
+}
+
+.container{
+  max-width: 629px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+
+.input-add-item{
+  max-width: 451px;
+  width: 100%;
+  height: 44px;
+  border-radius: 12px;
+  padding-inline: 18px;
+  padding-block: 11px;
+  border: 2px solid #D1D5DB;
+  background-color: #FFFFFF;
+  color: #080B12;
+}
+
+.input-add-item::placeholder{
+  color: #D1D5DB;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.input-add-item:focus{
+  outline: 2px solid #CA3884;
+  border-color: transparent;
+}
+
+.button-add-item{
+  background-color: #CA3884;
+  border: none;
+  /* height: 44px; */
+  padding-inline:24px ;
+  padding-block: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.wrapper-input-add-item{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.list{
+  list-style: none;
+  display: grid;
+  gap: 12px;
+  padding-block: 8px;
+  padding-inline: 4px;
+  margin-top: 40px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 49px;
+  border-radius: 12px;
+  padding-inline: 12px;
+  gap: 12px;
+  background-color: white;
+}
+
+.item p {
+  width: 100%;
+}
+
+.checkbox{
+  border-radius: 999px;
+
+}
+
+.trash-button{
+  border: none;
+  background-color: transparent;
+}
+
+
+.back-button{
+width: 57px;
+height: 16px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #CA3884;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+
+
+.alert{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 8px;
+position: absolute;
+width: 627px;
+height: 44px;
+left: calc(50% - 627px/2 - 0.5px);
+bottom: 137px;
+background: #C93847;
+border-radius: 12px;
+transition: display 200ms ease-in;
+}
+
+.text-alert{
+width: 547px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

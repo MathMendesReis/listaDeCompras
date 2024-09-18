@@ -1,0 +1,14 @@
+header{
+  height: 127px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline:4px ;
+}
+
+header img{
+  object-fit: cover;
+  max-width: 155.5px;
+  width: 100%;
+  max-height: 40px;
+}

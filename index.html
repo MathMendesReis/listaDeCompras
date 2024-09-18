@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header>
+    <img src="assets/icons/logo.svg" alt="" srcset="">
+  </header>
+  <div class="container">
+    <nav>
+      <button class="back-button">voltar</button>
+    </nav>
+    <main>
+      <h1>Compras da semana</h1>
+      <div>
+        <form >
+          <div class="wrapper-input-add-item">
+            <input id="add-item-input" class="input-add-item" placeholder="adicione um novo item" type="text">
+            <button class="button-add-item">adicionar item</button>
+          </div>
+        </form>
+        <ul id="list-items" class="list">
+          <!-- <li class="item">
+            <input type="checkbox">
+            <p>pão frandes</p>
+            <button>trash</button>
+          </li> -->
+        </ul>
+        <div class="alert" id="alert">
+          <p class="text-alert">
+            O item foi removido da lista
+          </p>
+        </div>
+      </div>
+    </main>
+
+  </div>
+  <script type="module" src="js/index.js"></script>
+</body>
+</html>
